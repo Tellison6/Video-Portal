@@ -1,0 +1,117 @@
+/* style.css - Özel tasarım stilleri */
+
+/* Genel Gövde */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+  }
+  
+  /* Başlıklar */
+  h1, h2, h3 {
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 1rem;
+  }
+  
+  /* Butonlar */
+  .btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #1e40af;
+  }
+  
+  /* Kart */
+  .card {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* Kategori kutuları */
+  .category-box {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: 600;
+    transition: background-color 0.2s, transform 0.2s;
+  }
+  
+  .category-box:hover {
+    background-color: #e0f2fe;
+    transform: scale(1.02);
+  }
+  
+  /* Form Elemanları */
+  input[type="text"], input[type="email"], input[type="password"], select, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    border-color: #2563eb;
+    outline: none;
+  }
+  
+  /* Başarı ve Uyarı Mesajları */
+  .alert-success {
+    background-color: #d1fae5;
+    color: #065f46;
+    padding: 0.75rem 1rem;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+  }
+  
+  .alert-error {
+    background-color: #fee2e2;
+    color: #991b1b;
+    padding: 0.75rem 1rem;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive Container */
+  .container {
+    max-width: 100%;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
