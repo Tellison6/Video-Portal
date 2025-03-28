@@ -1,5 +1,6 @@
 <?php
 require_once 'includes/db.php';
+include 'includes/header.php';
 
 // Arama parametresi
 $search = $_GET['q'] ?? null;
@@ -41,22 +42,23 @@ if ($parent_id !== null) {
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+<body class="bg-gray-100 min-h-screen flex flex-col">
 
-  <div class="w-full max-w-4xl bg-white p-6 rounded shadow">
+  <!-- Sayfa içeriği -->
+  <main class="flex-grow max-w-5xl mx-auto p-4 mt-6 w-full">
 
     <!-- Başlık -->
     <div class="text-center mb-6">
       <h1 class="text-xl sm:text-2xl font-bold flex items-center justify-center gap-2">
-        📚 <span>Videolu Soru Sistemi</span>
+      <a href="/video-portali/index.php"><img src="https://www.egitimdestekuzmani.com/image/catalog/lll/LOGO-SON-HAL-1s-2.png"  alt="Logo" /></a>
+
       </h1>
     </div>
 
     <!-- Arama Formu -->
     <?php if ($parent_id === null): ?>
     <form method="GET" class="flex flex-col sm:flex-row gap-2 mb-6">
-      <input type="text" name="q" value="<?= htmlspecialchars($_GET['q'] ?? '') ?>"
-        placeholder="Ana kategori ara..." class="w-full border p-2 rounded" />
+      <input type="text" name="q" value="<?= htmlspecialchars($_GET['q'] ?? '') ?>" placeholder="Ana kategori ara..." class="w-full border p-2 rounded" />
       <button type="submit" class="btn w-full sm:w-auto">Ara</button>
     </form>
     <?php endif; ?>
@@ -102,7 +104,10 @@ if ($parent_id !== null) {
       </div>
     <?php endif; ?>
 
-  </div>
+  </main>
+
+  <!-- Footer -->
+  <?php include 'includes/footer.php'; ?>
 
 </body>
 </html>
