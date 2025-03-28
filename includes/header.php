@@ -1,3 +1,5 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.js"></script>
 <header>
     <nav class="bg-gray border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
