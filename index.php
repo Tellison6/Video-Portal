@@ -40,6 +40,7 @@ if ($parent_id !== null) {
   <title>Videolu Soru Sistemi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon-100x100.png" type="image/x-icon">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 min-h-screen flex flex-col">
