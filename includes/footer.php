@@ -5,7 +5,7 @@
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="/video-portali/" class="flex items-center">
-                  <img src="https://www.egitimdestekuzmani.com/image/catalog/lll/LOGO-SON-HAL-1s-2.png" alt="FlowBite Logo" />
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/512px-W3Schools_logo.svg.png" alt="FlowBite Logo" />
               </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -16,7 +16,7 @@
                           <a href="/video-portali/" class="hover:underline">Video Portalı</a>
                       </li>
                       <li>
-                          <a href="https://www.egitimdestekuzmani.com/" class="hover:underline">EDU</a>
+                          <a href="#" class="hover:underline">Example</a>
                       </li>
                   </ul>
               </div>
@@ -24,10 +24,10 @@
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Menü</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="https://www.egitimdestekuzmani.com/urunler" class="hover:underline ">Kitaplarımız</a>
+                          <a href="#" class="hover:underline ">Kitaplarımız</a>
                       </li>
                       <li>
-                          <a href="https://drive.google.com/drive/folders/1VcRVmHT1qcHGnFeOGDznpmVVm8mcfvOw" class="hover:underline">Akıllı Tahta</a>
+                          <a href="#" class="hover:underline">Akıllı Tahta</a>
                       </li>
                   </ul>
               </div>
@@ -35,10 +35,10 @@
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Bize Ulaş</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="https://www.egitimdestekuzmani.com/iletisim" class="hover:underline">İletişim</a>
+                          <a href="#" class="hover:underline">İletişim</a>
                       </li>
                       <li>
-                          <a href="https://www.egitimdestekuzmani.com/gizlilik-ve-guvenlik" class="hover:underline">Gizlilik &amp; Güvenlik</a>
+                          <a href="#" class="hover:underline">Gizlilik &amp; Güvenlik</a>
                       </li>
                   </ul>
               </div>
